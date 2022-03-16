@@ -29,6 +29,7 @@ impl Package {
         self.sender_country != self.recipient_country
     }
 
+<<<<<<< HEAD
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
         self.weight_in_grams * cents_per_gram
     }
@@ -39,6 +40,10 @@ impl Package {
             sender_country: self.sender_country.clone(),
             recipient_country: self.recipient_country.clone()
         }
+=======
+    fn get_fees(&self, cents_per_gram: i32) -> ??? {
+        // Something goes here...
+>>>>>>> 4.6.0
     }
 }
 

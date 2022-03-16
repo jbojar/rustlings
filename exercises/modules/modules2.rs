@@ -1,10 +1,19 @@
 // modules2.rs
+// You can bring module paths into scopes and provide new names for them with the
+// 'use' and 'as' keywords. Fix these 'use' statements to make the code compile.
 // Make me compile! Execute `rustlings hint modules2` for hints :)
 
 
 mod delicious_snacks {
+<<<<<<< HEAD
     pub use self::fruits::PEAR as fruit;
     pub use self::veggies::CUCUMBER as veggie;
+=======
+
+    // TODO: Fix these use statements
+    use self::fruits::PEAR as ???
+    use self::veggies::CUCUMBER as ???
+>>>>>>> 4.6.0
 
     mod fruits {
         pub const PEAR: &'static str = "Pear";

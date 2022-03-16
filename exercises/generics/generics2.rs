@@ -1,6 +1,12 @@
 // This powerful wrapper provides the ability to store a positive integer value.
 // Rewrite it using generics so that it supports wrapping ANY type.
 
+<<<<<<< HEAD
+=======
+// Execute `rustlings hint generics2` for hints!
+
+// I AM NOT DONE
+>>>>>>> 4.6.0
 
 struct Wrapper<T> {
     value: T,
